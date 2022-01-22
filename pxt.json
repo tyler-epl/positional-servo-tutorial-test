@@ -2,7 +2,8 @@
     "name": "positional servo tutorial",
     "description": "",
     "dependencies": {
-        "circuit-playground": "*"
+        "circuit-playground": "*",
+        "servo": "*"
     },
     "files": [
         "main.blocks",
