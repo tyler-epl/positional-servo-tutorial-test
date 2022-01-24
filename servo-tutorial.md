@@ -12,7 +12,7 @@ forever(function () {
 ```package
 servo
 ```
-Drag a positional ``||servos:set servo A1 angle to||`` block and place it inside your forever loop
+Drag a positional ``||servos:set servo A1 angle to||`` block and place it inside your forever loop.
 
 
 ```blocks
@@ -22,8 +22,8 @@ forever(function () {
 
 ```
 ## Change the angle value
-We are going program a servo to swing back and forth. A positional servo can move from 0 to 180 degrees, so let's set the first position 
-and change the ``||servos:angle||`` value to 0 degrees.
+We are going to program a servo to swing back and forth. A positional servo can move from 0 to 180 degrees, so let's set the first position 
+by changing the ``||servos:angle||`` value to 0 degrees.
 
 ```blocks
 forever(function () {
@@ -48,7 +48,7 @@ This is because we need to give our servo some time to move back and forth. The 
 to wait a little bit before telling the servo to change its position.
 Add a ``||loops:pause||`` block after your first ``||servos:servo||`` block
 and a second ``||loops:pause||`` after the second ``||servos:servo||`` block.
-Change both ``||loops:pause||`` blocks to 1 second or 1000 ms.
+Change both ``||loops:pause||`` blocks to 1 second which is 1000 ms.
 ```blocks
 forever(function () {
     servos.A1.setAngle(0)
