@@ -23,7 +23,7 @@ forever(function () {
 ```
 ## Change the angle value
 We are going program a servo to swing back and forth. A positional servo can move from 0 to 180 degrees, so let's set the first position 
-and change the ``||servos:angle||`` value to 0.
+and change the ``||servos:angle||`` value to 0 degrees.
 
 ```blocks
 forever(function () {
@@ -33,7 +33,7 @@ forever(function () {
 
 ## Add another positional servo block
 We need to add a second ``||servos:set servo A1 angle to||`` block to tell the servo to move to the opposite side.
-Let's set the value of this ``||servos:angle||`` to 180.
+Let's set the value of this ``||servos:angle||`` to 180 degrees.
 
 ```blocks
 forever(function () {
