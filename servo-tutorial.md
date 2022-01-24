@@ -41,9 +41,10 @@ forever(function () {
 })
 ```
 
-## Slow Down
-If we tried running this code, our servo would just make some funny noises.
-This is because we need to give our servo some time to move back and forth.
+## Give it some time
+If we tried running this code now, nothing would happen.
+This is because we need to give our servo some time to move back and forth. The best way to do this to tell the Circuit Playground
+to wait a little bit before telling the servo to change its position.
 Add a ``||loops:pause||`` block after your first ``||servos:servo||`` block
 and a second ``||loops:pause||`` after the second ``||servos:servo||`` block.
 Change both ``||loops:pause||`` blocks to 1 second or 1000 ms.
