@@ -3,7 +3,10 @@
 forever(function () {
     servos.A1.setAngle(90)
     pause(100)
+        servos.A1.stop()
+
 })
+
 ```
 
 ## Add a positional servo block

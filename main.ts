@@ -3,4 +3,5 @@ forever(function () {
     pause(1000)
     servos.A1.setAngle(180)
     pause(1000)
+    servos.A1.stop()
 })
