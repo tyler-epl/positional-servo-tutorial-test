@@ -1,4 +1,4 @@
-# servo-tutorial
+# Positional Servo Tutorial
 ```ghost
 forever(function () {
     servos.A1.setAngle(90)
