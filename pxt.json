@@ -1,5 +1,6 @@
 {
     "name": "positional servo tutorial",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "circuit-playground": "*",
