@@ -22,7 +22,8 @@ forever(function () {
 
 ```
 ## Change the angle value
-A positional servo can move from 0 to 180 degrees. Let's change the ``||servos:angle||`` value to 0.
+We are going program a servo to swing back and forth. A positional servo can move from 0 to 180 degrees, so let's set the first position 
+and change the ``||servos:angle||`` value to 0.
 
 ```blocks
 forever(function () {
