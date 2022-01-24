@@ -6,7 +6,6 @@ forever(function () {
         servos.A1.stop()
 
 })
-
 ```
 
 ## Add a positional servo block
@@ -32,7 +31,7 @@ forever(function () {
 ```
 
 ## Add another positional servo block
-We need to add second ``||servos:set servo A1 angle to||`` block to tell the servo to move to the opposite side.
+We need to add a second ``||servos:set servo A1 angle to||`` block to tell the servo to move to the opposite side.
 Let's set the value of this ``||servos:angle||`` to 180.
 
 ```blocks
