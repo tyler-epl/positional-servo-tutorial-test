@@ -3,7 +3,7 @@
 forever(function () {
     servos.A1.setAngle(90)
     pause(100)
-        servos.A1.stop()
+    servos.A1.stop()
 
 })
 ```
@@ -24,6 +24,9 @@ forever(function () {
 ## Change the angle value
 We are going to program a servo to swing back and forth. A positional servo can move from 0 to 180 degrees, so let's set the first position 
 by changing the ``||servos:angle||`` value to 0 degrees.
+
+![Agent building a tower](/static/protractor.png)
+
 
 ```blocks
 forever(function () {
