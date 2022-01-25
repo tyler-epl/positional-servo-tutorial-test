@@ -1,12 +1,17 @@
 # Positional Servo Tutorial
+
 ```ghost
 forever(function () {
-    servos.A1.setAngle(90)
-    pause(100)
+    servos.A1.setAngle(0)
+    pause(1000)
     servos.A1.stop()
-
+    servos.A1.run(50)
 })
+
 ```
+### @diffs true
+### @explicitHints true
+
 
 ## Add a positional servo block @showdialog
 ```package
@@ -41,6 +46,7 @@ Let's set the value of this ``||servos:angle||`` to 180 degrees.
 ```blocks
 forever(function () {
     servos.A1.setAngle(0)
+    // @highlight
     servos.A1.setAngle(180)
 })
 ```
@@ -51,7 +57,7 @@ This is because we need to give our servo some time to move back and forth. The 
 to wait a little bit before telling the servo to change its position.
 Add a ``||loops:pause||`` block after your first ``||servos:servo||`` block
 and a second ``||loops:pause||`` after the second ``||servos:servo||`` block.
-Change both ``||loops:pause||`` blocks to 1 second which is 1000 ms.
+Change both ``||loops:pause||`` blocks to 1 second which is 1000 ms(ms = milliseconds).
 ```blocks
 forever(function () {
     servos.A1.setAngle(0)
