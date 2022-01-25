@@ -10,15 +10,16 @@ forever(function () {
 
 ```
 ### @diffs true
-### @explicitHints true
+### @explicitHints false
 
 
-## Add a positional servo block @showdialog
+## Add a positional servo block @fullscreen
 ```package
 servo
 ```
 Drag a positional ``||servos:set servo A1 angle to||`` block and place it inside your forever loop.
 
+![Block Gif](docs/static/ps-servo-step-one-v2.gif)
 
 ```blocks
 forever(function () {
@@ -26,7 +27,7 @@ forever(function () {
 })
 
 ```
-## Change the angle value @showhint
+## Change the angle value @fullscreen
 We are going to program a servo to swing back and forth. A positional servo can move from 0 to 180 degrees, so let's set the first position 
 by changing the ``||servos:angle||`` value to 0 degrees.
 
@@ -36,7 +37,7 @@ forever(function () {
 })
 ```
 
-## Add another positional servo block
+## Add another positional servo block @fullscreen
 We need to add a second ``||servos:set servo A1 angle to||`` block to tell the servo to move to the opposite side.
 Let's set the value of this ``||servos:angle||`` to 180 degrees.
 
@@ -48,7 +49,7 @@ forever(function () {
 })
 ```
 
-## Give it some time
+## Give it some time @fullscreen
 If we tried running this code now, nothing would happen.
 This is because we need to give our servo some time to move back and forth. The best way to do this to tell the Circuit Playground
 to wait a little bit before telling the servo to change its position.
