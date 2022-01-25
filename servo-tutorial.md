@@ -19,7 +19,7 @@ servo
 ```
 Drag a positional ``||servos:set servo A1 angle to||`` block and place it inside your forever loop.
 
-![Block Gif](docs/static/ps-servo-step-one-v2.gif)
+![Block Gif](https://raw.githubusercontent.com/tyler-epl/positional-servo-tutorial/master/docs/static/pos-servo-step-one-v3.gif)
 
 ```blocks
 forever(function () {
