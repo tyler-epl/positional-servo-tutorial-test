@@ -8,7 +8,7 @@ forever(function () {
 })
 ```
 
-## Add a positional servo block
+## Add a positional servo block @showdialog
 ```package
 servo
 ```
