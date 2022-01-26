@@ -18,7 +18,7 @@ This tutorial will show you how to program a positional servo to move back and f
 ![Positional Servo Moving]()
 
 
-## Add a positional servo block @fullscreen
+## Add a positional servo block
 We will use code to give the positional servo different commands through the Circuit Playground Express. A positional servo 
 can move from 0 - 180 degrees. We can tell the servo to go any postion along this movement arc by telling it to go to an exact angle.
 </br><i class="window minimize outline icon"></i></br>
@@ -33,7 +33,7 @@ forever(function () {
 ```
 ![Block Gif](https://raw.githubusercontent.com/tyler-epl/positional-servo-tutorial/master/docs/static/pos-servo-step-one-v3.gif)
 
-## Change the angle value @fullscreen
+## Change the angle value
 We are going to program a servo to swing back and forth. To do this, we need to tell it to move to two different positions. 
 Let set the first position.
 </br><i class="window minimize outline icon"></i></br>
@@ -45,7 +45,7 @@ forever(function () {
 })
 ```
 
-## Add another positional servo block @fullscreen
+## Add another positional servo block
 We need a second block to tell the servo to move to the opposite side.
 </br><i class="window minimize outline icon"></i></br>
 <i class="circle icon"></i>Add a second ``||servos:set servo A1 angle to||`` block under the first one.</br>
@@ -59,7 +59,7 @@ forever(function () {
 })
 ```
 
-## Give it some time @fullscreen @diffs true
+## Give it some time
 If we tried running this code now, nothing would happen. This is because we need to give our servo some time to move back and forth. 
 The best way to do this is to tell the Circuit Playground to wait a little bit before telling the servo to change its position.
 </br><i class="window minimize outline icon"></i></br>
