@@ -12,6 +12,11 @@ forever(function () {
 ```package
 servo
 ```
+## Program a Positional Servo @unplugged
+This tutorial will show you how to program a positional servo to move back and forth.
+
+![Positional Servo Moving]()
+
 
 ## Add a positional servo block @fullscreen
 We will use code to give the positional servo different commands through the Circuit Playground Express. A positional servo 
