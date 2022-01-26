@@ -64,7 +64,7 @@ If we tried running this code now, nothing would happen. This is because we need
 The best way to do this is to tell the Circuit Playground to wait a little bit before telling the servo to change its position.
 </br><i class="window minimize outline icon"></i></br>
 <i class="circle icon"></i>Add a ``||loops:pause||`` block after your first ``||servos:servo||`` block
-and a second ``||loops:pause||`` after the second ``||servos:servo||`` block.
+and a second ``||loops:pause||`` after the second ``||servos:servo||`` block (``||loops:pause||`` blocks are under the ``||loops:loops||`` tab).
 </br><i class="circle icon"></i>Change both ``||loops:pause||`` blocks to 1 second which is 1000 ms (ms = milliseconds).
 ```blocks
 forever(function () {
@@ -86,8 +86,5 @@ forever(function () {
 The last step is to transfer your program to your Circuit Playground. 
 </br><i class="window minimize outline icon"></i></br>
 <i class="circle icon"></i>Click the ``||Download||`` button in the bottom left. </br>
-<i class="circle icon"></i>Make your Circuit Playground is plugged into your computer with the USB cord.</br>
-<i class="circle icon"></i>You will also need to wire your servo to the Circuit Playground. See the tutorial on the website for this. </br>
-<i class="circle icon"></i>Drag and drop the program file onto your Circuit Playground. Check out the full tutorial on the website 
-for more details on how to transfer your program.
+<i class="circle icon"></i>Follow our transfer tutorial on the Cardboard Challenge website.
 
